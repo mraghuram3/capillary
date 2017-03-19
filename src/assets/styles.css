@@ -1,0 +1,209 @@
+/* You can add global styles to this file, and also import other style files */
+.icon{
+    color: #546087!important;
+    font-weight: bolder !important;
+    padding: 15px!important;
+    font-size: 2em;
+
+}
+.icon-bar{
+        color: #546087!important;
+    font-weight: bolder !important;
+    /* padding: 15px!important; */
+    font-size: 2em;
+}
+.title{
+    color: rebeccapurple;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    
+}
+.top{
+    height: 50%!important;
+    border-bottom: solid;
+    border-bottom-width: .5px;
+    border-bottom-color: #F5E593;
+}
+.middle{
+    padding-top: 5px;
+    border-bottom: solid;
+    border-bottom-width: .5px;
+    border-bottom-color: #F5E593;
+}
+.bottom-right{
+    border-left: solid;
+    border-left-width: .5px;
+    border-left-color: #F5E593;
+}
+.time{
+    color: #000000!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+.author{
+    color: #000000!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+.comments{
+    color: #000000!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+.points{
+    color: #000000!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+body {
+    background-color: #D2D7DA!important;
+    color:black !important;
+    
+}
+h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+.demo-card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 100px;
+}
+h4.title {
+  text-align: center;
+}
+.card
+{
+        background-color: #EEF0F4!important;
+        padding: 20px;
+        height: 175px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        color: #546087 !important;
+}
+.test a:hover{
+    text-decoration: none;
+}
+ .form-horizontal .ng2-auto-complete ul {
+       height:300px !important;
+      }
+.dropdown-btn{
+    background: white!important;
+    height: 47px!important;
+    margin-top: -1px;
+}
+.item{
+    padding-left: 10px;
+    border-bottom: solid;
+    border-width: 0.4px;
+    border-color: lightgrey;
+}
+
+
+
+/*searchbar*/
+#searchbar-navbar {
+    background-color: #2874f0;
+    color: #FFFFFF;
+}
+
+.row1{
+    padding-top: 10px;
+}
+
+.row2 {
+    padding-top: 20px;
+}
+
+.searchbar-navbar-input {
+    padding: 11px 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0 none;
+    outline: 0 none;
+    font-size: 15px;
+}
+
+.searchbar-navbar-searchbutton {
+    background-color: #ffe11b;
+    border: 1px solid #ffe11b;
+    border-radius: 0 2px 2px 0;
+    color: #565656;
+    padding: 10px 0;
+    height: 43px;
+    cursor: pointer;
+}
+.searchbar-navbar-removebutton {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 0 2px 2px 0;
+    color: #565656;
+    padding: 10px 0;
+    height: 43px;
+    cursor: pointer;
+}
+
+.cart-button {
+    background-color: #2469d9;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
+    padding: 10px 0;
+    text-align: center;
+    height: 41px;
+    border-radius: 2px;
+    font-weight: 500;
+    width: 120px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+.cart-button:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+/*.dropdown:hover {
+    background-color: #fff;
+}
+
+.dropdown:hover .links {
+    color: #000;
+}*/
+
+/*.dropdown:hover .dropdown-menu {
+    display: block;
+}*/
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background-color: #fff;
+    color: #333;
+    left: 0px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 4px 8px -3px #555454;
+    margin: 0;
+    padding: 0px;
+}
+
+.logout{
+    float: right;
+    padding-right: 20px;
+    font-size: .5em!important;
+    cursor: pointer;
+}

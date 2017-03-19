@@ -1,0 +1,55 @@
+<div class="container" style="overflow:hidden;">
+<!--search bar and filter-->
+<div class="row row2">
+            <div class="searchbar-navbar-search smallsearch col-sm-10 col-xs-10">
+                <div class="row">
+                    <input class="searchbar-navbar-input col-xs-10" type="text" [typeahead]="games" typeaheadOptionField="title" placeholder="Search" type="text" [(ngModel)]="query" (change)="search()" (keyup.enter)="search()">
+                    <button class="searchbar-navbar-removebutton col-xs-1" (click)="reset()">
+                       <span class="glyphicon glyphicon-remove"></span>
+                    </button>
+                    <button class="searchbar-navbar-searchbutton col-xs-1" (click)="search()">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </div>
+            </div>
+            <div  class="col-sm-2 col-xs-2" style="padding-left: 60px;">
+              <div dropdown>
+                <button id="double-button" class="cart-button" dropdownToggle>
+                    Sort
+                </button>
+                 <ul dropdownMenu role="menu" aria-labelledby="double-button">
+                  <li role="menuitem"> <div class="item" (click)="sort('score','asc')">Score Asc</div></li>
+                  <li role="menuitem"> <div class="item"  (click)="sort('score','desc')">Score Desc</div></li>
+                  <li role="menuitem"> <div class="item"  (click)="sort('platform','asc')">Platform Asc</div></li>
+                  <li role="menuitem"> <div class="item"  (click)="sort('platform','desc')">Platform Desc</div></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+
+
+ <div style="padding-top: 40px !important;" *ngIf="games.length>0">
+      <div class="col-sm-4 test" *ngFor="let game of games | paginate: { itemsPerPage: 6, currentPage: p };let i = index">
+         <div style="padding:20px">
+           <div class="card">
+              <div class="row top" >
+               <div class="col-sm-10 text-center"><span class="title">{{game.title}}</span></div><div class="col-sm-2 text-center"><span *ngIf="game.editors_choice == 'Y'" class="glyphicon glyphicon-star"></span></div>
+              </div>
+               <div class="row middle">
+                <div class="col-sm-6"> <span class="points">{{game.platform}}</span></div> <div class="col-sm-6 text center"> <span class="comments">{{game.platform}}</span></div>
+              </div>
+               <div class="row">
+                <div class="col-sm-6 text-center"><span class="author">{{game.genre}}</span></div> <div class="col-sm-6 text-center bottom-right"><span class="time">{{game.score}}</span></div>
+              </div>
+           </div>
+         </div>
+      </div>
+   </div>
+   <!--pagination-->
+   <div class="row">
+      <div class=" col-sm-4 col-sm-offset-4" style="padding: 0 !important;">
+         <pagination-controls (pageChange)="p = $event"></pagination-controls>
+      </div>
+   </div>
+</div>
