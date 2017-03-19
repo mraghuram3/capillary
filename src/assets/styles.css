@@ -1,4 +1,249 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xn9542');
+  src:  url('fonts/icomoon.eot?xn9542#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xn9542') format('truetype'),
+    url('fonts/icomoon.woff?xn9542') format('woff'),
+    url('fonts/icomoon.svg?xn9542#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-console .path1:before {
+  content: "\e900";
+  color: rgb(206, 193, 188);
+}
+.icon-console .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(155, 133, 121);
+}
+.icon-console .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(239, 66, 55);
+}
+.icon-console .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-console .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(206, 193, 188);
+}
+.icon-console .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(181, 162, 153);
+}
+.icon-console .path7:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(181, 162, 153);
+}
+.icon-console .path8:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(155, 133, 121);
+}
+.icon-console .path9:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(219, 222, 236);
+}
+.icon-console .path10:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(180, 170, 181);
+}
+.icon-console .path11:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(158, 144, 151);
+}
+.icon-console .path12:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(180, 170, 181);
+}
+.icon-console .path13:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(136, 120, 125);
+}
+.icon-console .path14:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(206, 64, 69);
+}
+.icon-console .path15:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(219, 222, 236);
+}
+.icon-console .path16:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(206, 193, 188);
+}
+.icon-console .path17:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(181, 162, 153);
+}
+.icon-console .path18:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(181, 162, 153);
+}
+.icon-console .path19:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(155, 133, 121);
+}
+.icon-console .path20:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(219, 222, 236);
+}
+.icon-console .path21:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(180, 170, 181);
+}
+.icon-console .path22:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(158, 144, 151);
+}
+.icon-ipad .path1:before {
+  content: "\e916";
+  color: rgb(151, 206, 200);
+}
+.icon-ipad .path2:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(96, 97, 97);
+}
+.icon-ipad .path3:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(192, 229, 226);
+}
+.icon-ipad .path4:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(151, 206, 200);
+}
+.icon-pc .path1:before {
+  content: "\e91a";
+  color: rgb(151, 206, 200);
+}
+.icon-pc .path2:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(96, 97, 97);
+}
+.icon-pc .path3:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(205, 215, 214);
+}
+.icon-pc .path4:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(79, 79, 79);
+}
+.icon-pc .path5:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(79, 79, 79);
+}
+.icon-pc .path6:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(96, 97, 97);
+}
+.icon-pc .path7:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(79, 79, 79);
+}
+.icon-pc .path8:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(192, 229, 226);
+}
+.icon-phone .path1:before {
+  content: "\e922";
+  color: rgb(206, 193, 188);
+}
+.icon-phone .path2:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(114, 102, 88);
+}
+.icon-phone .path3:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-phone .path4:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-phone .path5:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(128, 118, 105);
+}
+.icon-phone .path6:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(180, 170, 181);
+}
+.icon-phone .path7:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(103, 94, 97);
+}
+.icon-phone .path8:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(219, 222, 236);
+}
+.icon-phone .path9:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(219, 222, 236);
+}
+.icon-phone .path10:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(115, 109, 112);
+}
+
+
+
 .icon{
     color: #546087!important;
     font-weight: bolder !important;
@@ -13,28 +258,39 @@
     font-size: 2em;
 }
 .title{
-    color: rebeccapurple;
+    color: #5F6BBB;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 1.2em;
     
 }
 .top{
-    height: 50%!important;
+    height: 40%!important;
+    /*border-bottom: solid;
+    border-bottom-width: .5px;
+    border-bottom-color: #F5E593;*/
+    display: flex;
+    align-items: center;
+}
+.middle{
+    /*padding-top: 5px;
+    padding-top: 8px;*/
+    display: flex;
+    align-items: center;
     border-bottom: solid;
     border-bottom-width: .5px;
     border-bottom-color: #F5E593;
 }
-.middle{
-    padding-top: 5px;
-    border-bottom: solid;
-    border-bottom-width: .5px;
-    border-bottom-color: #F5E593;
+.bottom{
+    padding-top: 8px;
 }
 .bottom-right{
     border-left: solid;
     border-left-width: .5px;
     border-left-color: #F5E593;
+}
+.platform-icons{
+    font-size: 2.5em!important;
 }
 .time{
     color: #000000!important;
@@ -61,7 +317,7 @@
     font-size: 1em;
 }
 body {
-    background-color: #D2D7DA!important;
+    background-color: #DBC5EC!important;
     color:black !important;
     
 }
@@ -79,7 +335,7 @@ h4.title {
 }
 .card
 {
-        background-color: #EEF0F4!important;
+        background-color: #ffffff!important;
         padding: 20px;
         height: 175px;
         border-radius: 10px;

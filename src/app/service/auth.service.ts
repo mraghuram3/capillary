@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/Observable';
 @Injectable()
 export class AuthService {
   public token: string;
-  public loginUrl: string = 'https://testappraghu.herokuapp.com/api/authenticate/';
+  public loginUrl: string = 'https://whispering-woodland-70337.herokuapp.com/api/authenticate/';
 
   constructor(private http: Http) {
      const tokenfromcache = localStorage.getItem('token');
