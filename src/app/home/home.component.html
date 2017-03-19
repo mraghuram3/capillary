@@ -8,7 +8,7 @@
                        <span class="glyphicon glyphicon-remove"></span>
                     </button>
                     <button class="searchbar-navbar-searchbutton col-xs-1" (click)="search()">
-                        <span class="glyphicon glyphicon-search"></span>
+                        <span class="glyphicon glyphicon-search" style="color:white!important"></span>
                     </button>
                 </div>
             </div>
@@ -34,7 +34,7 @@
          <div style="padding:20px">
            <div class="card">
               <div class="row top" >
-               <div class="col-sm-10 text-center"><span class="title">{{game.title}}</span></div><div class="col-sm-2 text-center"><span *ngIf="game.editors_choice == 'Y'" class="glyphicon glyphicon-star"></span></div>
+               <div class="col-sm-10 text-center"><span class="title">{{game.title}}</span></div><div class="col-sm-2 text-center"><span *ngIf="game.editors_choice == 'Y'" class="glyphicon glyphicon-star" style="color: orange;"></span></div>
               </div>
                <div class="row middle">
                 <div class="col-sm-6 text-center platform-icons"> 
@@ -44,7 +44,7 @@
                 <span class="icon-console" *ngIf="game.platform == 'PlayStation 3' || game.platform == 'PlayStation Vita' || game.platform == 'Xbox 360' || game.platform == 'Nintendo DS' ">
                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span><span class="path22"></span>
                 </span>
-                <span class="icon-pc" *ngIf="game.platform == 'Macintosh' || game.platform == 'Pc'">
+                <span class="icon-pc" *ngIf="game.platform == 'Macintosh' || game.platform == 'PC'">
                 <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span>
                 </span>
                 <span class="icon-phone" *ngIf="game.platform == 'Android' || game.platform == 'IPhone'">

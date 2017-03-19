@@ -305,7 +305,7 @@
     font-size: 1em;
 }
 .comments{
-    color: #000000!important;
+    color: #80738F!important;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -354,10 +354,13 @@ h4.title {
     margin-top: -1px;
 }
 .item{
-    padding-left: 10px;
-    border-bottom: solid;
+    padding: 5px;
+    padding-left: 8px!important;
+    border: solid;
     border-width: 0.4px;
+    font-size: 1.3em;
     border-color: lightgrey;
+    cursor:pointer;
 }
 
 
@@ -385,8 +388,8 @@ h4.title {
 }
 
 .searchbar-navbar-searchbutton {
-    background-color: #ffe11b;
-    border: 1px solid #ffe11b;
+    background-color: #80738F;
+    border: 1px solid #80738F;
     border-radius: 0 2px 2px 0;
     color: #565656;
     padding: 10px 0;
@@ -404,7 +407,8 @@ h4.title {
 }
 
 .cart-button {
-    background-color: #2469d9;
+    color:white!important;
+    background-color: #80738F;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
     padding: 10px 0;
     text-align: center;
@@ -420,11 +424,11 @@ h4.title {
     outline: none;
 }
 
-.cart-button:hover{
+/*.cart-button:hover{
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-}
+}*/
 .dropdown {
     position: relative;
     display: inline-block;
