@@ -8,7 +8,7 @@ import { Game } from './../model/game';
 @Injectable()
 export class BackendService {
 
- apiurl = 'https://whispering-woodland-70337.herokuapp.com/api/';
+ apiurl = '/api/';
  dataUrl: string = this.apiurl + 'games';
  sortUrl: string = this.apiurl + 'sort';
  searchUrl: string = this.apiurl + 'search';

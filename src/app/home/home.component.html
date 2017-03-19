@@ -1,3 +1,4 @@
+<div class="logout" (click)="logout()">Logout <span class="glyphicon glyphicon-off"></span></div>
 <div class="container" style="overflow:hidden;">
 <!--search bar and filter-->
 <div class="row row2">
@@ -52,10 +53,10 @@
                 </span>
                 
                 </div>
-                <div class="col-sm-6 text-center"> <span class="comments">{{game.platform}}</span></div>
+                <div class="col-sm-6 text-center"> <span class="platform">{{game.platform}}</span></div>
               </div>
                <div class="row bottom">
-                <div class="col-sm-6 text-center">Genre: <span class="author">{{game.genre}}</span></div> <div class="col-sm-6 text-center bottom-right"><span class="time">{{game.score}}</span></div>
+                <div class="col-sm-6 text-center">Genre: <span class="genre">{{game.genre}}</span></div> <div class="col-sm-6 text-center bottom-right"><span class="score">{{game.score}}</span></div>
               </div>
            </div>
          </div>

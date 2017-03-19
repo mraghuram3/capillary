@@ -10,9 +10,9 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'Games Arena';
    constructor(  private router: Router, private authService: AuthService) { }
-  logout()
-  {
-      this.authService.logout();
-      this.router.navigate(['/login']);
-  }
+  // logout()
+  // {
+  //     this.authService.logout();
+  //     this.router.navigate(['/login']);
+  // }
 }

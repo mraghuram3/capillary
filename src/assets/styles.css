@@ -292,26 +292,20 @@
 .platform-icons{
     font-size: 2.5em!important;
 }
-.time{
+.score{
     color: #000000!important;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1em;
 }
-.author{
+.genre{
     color: #000000!important;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1em;
 }
-.comments{
+.platform{
     color: #80738F!important;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
-}
-.points{
-    color: #000000!important;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -463,7 +457,7 @@ h4.title {
 
 .logout{
     float: right;
+    margin-top: -50px;
     padding-right: 20px;
-    font-size: .5em!important;
     cursor: pointer;
 }

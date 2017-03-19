@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 
 import { Game } from './../model/game';
 import { BackendService } from './../service/backend.service';
-
+import { AuthService } from './../service/auth.service';
 import {SlimLoadingBarService} from 'ng2-slim-loading-bar';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -16,11 +17,17 @@ export class HomeComponent implements OnInit {
     games: Game[] = new Array<Game>();
     gamesCopy: Game[] = new Array<Game>();
     query = '';
-  constructor(private backend: BackendService, private slimLoadingBarService: SlimLoadingBarService) {
+  constructor(private backend: BackendService, private router: Router,
+   private slimLoadingBarService: SlimLoadingBarService,private authService: AuthService) {
     this.getData();
   }
 
   ngOnInit() {
+  }
+  logout()
+  {
+      this.authService.logout();
+      this.router.navigate(['/login']);
   }
   getData() {
       this.startLoading();
